@@ -1,0 +1,24 @@
+.services {
+  padding-top: 136px; }
+
+.services-title {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center; }
+
+.services-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 136px;
+  max-width: 1140px;
+  padding-left: 227px; }
+
+.services-wrapper {
+  width: 264px;
+  height: 382px; }
+
+/*# sourceMappingURL=services.css.map */
