@@ -10,15 +10,32 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 136px;
-  max-width: 1140px;
-  padding-left: 227px; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 136px; }
 
 .services-wrapper {
   width: 264px;
   height: 382px; }
+
+@media (max-width: 1250px) {
+  .services-content {
+    padding-left: 0; } }
+
+@media (max-width: 1180px) {
+  .services-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0; }
+  .services-wrapper {
+    margin-bottom: 25px; } }
 
 /*# sourceMappingURL=services.css.map */
